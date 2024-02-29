@@ -2,6 +2,7 @@
 --uncblue:rgb(1,45,91);
 --uncgold:rgb(254,189,54);
 --uncdark:rgb(51,51,51);
+--uncmed:rgb(102,102,102);
 body
 {
 background-color : var(--uncblue);
@@ -12,3 +13,5 @@ color: var(--uncblue);
 .ban{
 background-color: var(--uncgold);
 }
+.menu collapsible geolinks{
+background-color: var(--uncmed);
