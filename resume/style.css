@@ -5,8 +5,8 @@ body, h1, h2, h3, ul, li {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: red;
+    color: blue;
     padding: 10px;
     text-align: center;
 }
@@ -32,7 +32,7 @@ section#contactinfo img {
     float: left;
 }
 
-/* Style the date */
+
 .date {
     font-style: italic;
 }
