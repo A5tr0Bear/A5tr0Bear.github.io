@@ -1,46 +1,38 @@
-
-body, h1, h2, h3, ul, li {
-    margin: 0;
-    padding: 0;
+:root
+{
+  --box: white;
+  --box2: black;
+  --backround: red;
 }
-
-header {
-    background-color: red;
-    color: blue;
-    padding: 10px;
+body
+{
+    background-color: var(--backround);
+}
+*
+{
+    color: var(--box);
     text-align: center;
 }
-
-header h1 {
-    margin: 0;
+h1
+{
+    font-size: calc(12pt + 4vw);
 }
-
-section {
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
+nav
+{
+    border: 7px var(--box2) solid;
 }
-
-section h2 {
-    margin-bottom: 10px;
+section
+{
+    border: 5px var(--box) solid;
+    margin: 5px;
+    margin-top: 50px;
 }
-
-section#contactinfo img {
-    width: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-    float: left;
+.date
+{
+    color: var(--backround);
 }
-
-
-.date {
-    font-style: italic;
-}
-
-section#skills ul {
-    columns: 2;
-}
-
-ul li a:hover {
-    text-decoration: underline;
+ul
+{
+    list-style: none;
+    padding-left: 0px;
 }
